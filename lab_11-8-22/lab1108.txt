@@ -1,0 +1,9 @@
+Write a java program using hibernate to establish relationship b/w Person entity and Car entity where a person can have one car only.
+
+Write a query to find the Nth highest salary from the Employee table (eid,ename,dept,salary)
+=> SELECT salary FROM employee ORDER BY salary DESC LIMIT n-1,1;
+
+
+
+Write a query to fetch details of all employees excluding the employees with names, “Rocky” and “Vikram” from the Employee(eid,ename,dept,salary) table.
+=>select * from employee where  ename!="Rocky" AND ename!="Vikram";
